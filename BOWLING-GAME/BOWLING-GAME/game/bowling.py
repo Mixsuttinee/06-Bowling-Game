@@ -6,7 +6,7 @@
 
 # Project Library
 
-# -----------------------------------------------------------------------------
+
 class BowlingFrame:
     """Keeping the record of each bowling frame."""
 
@@ -36,8 +36,6 @@ class BowlingFrame:
         """Check if the current frame is a strike."""
 
 
-
-# -----------------------------------------------------------------------------
 class BowlingFrame10(BowlingFrame):
     """Keeping the record of the 10th bowling frame."""
 
@@ -46,7 +44,6 @@ class BowlingFrame10(BowlingFrame):
         super().__init__(3)
 
 
-# -----------------------------------------------------------------------------
 class BowlingGame:
     """The Bowling Game."""
 
